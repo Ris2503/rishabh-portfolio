@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Rishabh Tiwari — Technology Graduate portfolio and resume." />
+    <title>Rishabh Tiwari | Resume</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <nav class="nav" aria-label="Primary navigation">
+        <div class="nav__inner">
+          <a class="brand" href="#top" aria-label="Go to top">
+            <span class="brand__mark" aria-hidden="true">RT</span>
+            <span class="brand__text">Rishabh Tiwari</span>
+          </a>
+
+          <button class="nav__toggle" type="button" aria-label="Open menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </button>
+
+          <div class="nav__links" data-nav-links>
+            <a href="#contact">Contact</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#languages">Languages</a>
+          </div>
+
+          <button
+            class="theme-toggle"
+            type="button"
+            aria-label="Toggle dark mode"
+            title="Toggle theme"
+            data-theme-toggle
+          >
+            <span class="theme-toggle__icon" aria-hidden="true" data-theme-icon>☀️</span>
+            <span class="theme-toggle__text">Theme</span>
+          </button>
+        </div>
+      </nav>
+
+      <section class="hero" aria-label="Intro">
+        <div class="container hero__inner">
+          <div class="hero__content">
+            <p class="kicker">Technology Graduate</p>
+            <h1 class="hero__title">Rishabh Tiwari</h1>
+            <p class="hero__subtitle">Technology Graduate | Data Analysis | Python | BI Tools</p>
+
+            <div class="hero__cta" role="group" aria-label="Primary actions">
+              <a class="btn btn--primary" href="./assets/rishabh-tiwari-resume.pdf" download>
+                Download Resume
+              </a>
+              <a
+                class="btn btn--ghost"
+                href="https://www.linkedin.com/in/rishabh-tiwari2003/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                LinkedIn Profile
+              </a>
+            </div>
+
+            <ul class="hero__highlights" aria-label="Highlights">
+              <li>
+                <span class="pill">Data analytics</span>
+              </li>
+              <li>
+                <span class="pill">Dashboards</span>
+              </li>
+              <li>
+                <span class="pill">Automation</span>
+              </li>
+            </ul>
+          </div>
+
+          <aside class="hero__card" aria-label="Quick contact">
+            <h2 class="section-title section-title--sm">Contact</h2>
+            <div class="contact-grid" id="contact">
+              <a class="contact-item" href="tel:+918355933818">
+                <span class="contact-item__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="20" height="20" focusable="false">
+                    <path
+                      d="M6.6 10.8c1.7 3.3 3.3 4.9 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.7 3.8.7.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.4 21 3 13.6 3 4c0-.6.4-1 1-1h3.1c.6 0 1 .4 1 1 0 1.3.2 2.6.7 3.8.1.4 0 .8-.3 1.1l-2.2 2.2Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+                <span class="contact-item__label">
+                  <span class="contact-item__k">Phone</span>
+                  <span class="contact-item__v">8355933818</span>
+                </span>
+              </a>
+
+              <a class="contact-item" href="mailto:rishabh25gt@gmail.com">
+                <span class="contact-item__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="20" height="20" focusable="false">
+                    <path
+                      d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v11A2.5 2.5 0 0 1 17.5 20h-11A2.5 2.5 0 0 1 4 17.5v-11Zm2.1-.6 5.4 4.3c.3.2.7.2 1 0l5.4-4.3H6.1ZM18 8l-4.9 3.9a2.5 2.5 0 0 1-3.1 0L5 8v9.5c0 .8.7 1.5 1.5 1.5h11c.8 0 1.5-.7 1.5-1.5V8Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+                <span class="contact-item__label">
+                  <span class="contact-item__k">Email</span>
+                  <span class="contact-item__v">rishabh25gt@gmail.com</span>
+                </span>
+              </a>
+
+              <a
+                class="contact-item"
+                href="https://www.linkedin.com/in/rishabh-tiwari2003/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <span class="contact-item__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="20" height="20" focusable="false">
+                    <path
+                      d="M6.5 7A1.5 1.5 0 1 0 6.5 4a1.5 1.5 0 0 0 0 3ZM5 9h3v10H5V9Zm5 0h2.9v1.4h.1c.4-.8 1.4-1.6 2.9-1.6 3.1 0 3.7 2 3.7 4.7V19h-3v-4.7c0-1.1 0-2.6-1.6-2.6-1.6 0-1.8 1.2-1.8 2.5V19h-3V9Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+                <span class="contact-item__label">
+                  <span class="contact-item__k">LinkedIn</span>
+                  <span class="contact-item__v">rishabh-tiwari2003</span>
+                </span>
+              </a>
+
+              <div class="contact-item" role="group" aria-label="Address">
+                <span class="contact-item__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="20" height="20" focusable="false">
+                    <path
+                      d="M12 22s7-4.4 7-12a7 7 0 1 0-14 0c0 7.6 7 12 7 12Zm0-9.5A2.5 2.5 0 1 1 12 7a2.5 2.5 0 0 1 0 5.5Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+                <span class="contact-item__label">
+                  <span class="contact-item__k">Address</span>
+                  <span class="contact-item__v">Andheri, Mumbai, Maharashtra</span>
+                </span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </header>
+
+    <main id="main">
+      <section class="section" id="certifications" aria-label="Certifications">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title">Certifications</h2>
+            <p class="section-desc">Quick access to verified certificates (PDF).</p>
+          </div>
+
+          <div class="card">
+            <div class="table" role="table" aria-label="Certifications table">
+              <div class="table__row table__head" role="row">
+                <div class="table__cell" role="columnheader">Certification Name</div>
+                <div class="table__cell" role="columnheader">Certificate</div>
+              </div>
+
+              <div class="table__row" role="row">
+                <div class="table__cell" role="cell">Data Analysis</div>
+                <div class="table__cell" role="cell">
+                  <a
+                    class="link"
+                    href="./certificates/data-analysis.pdf"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    data-cert-link
+                  >
+                    View Certificate (PDF)
+                  </a>
+                </div>
+              </div>
+
+              <div class="table__row" role="row">
+                <div class="table__cell" role="cell">Data Visualization</div>
+                <div class="table__cell" role="cell">
+                  <a
+                    class="link"
+                    href="./certificates/data-visualization.pdf"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    data-cert-link
+                  >
+                    View Certificate (PDF)
+                  </a>
+                </div>
+              </div>
+
+              <div class="table__row" role="row">
+                <div class="table__cell" role="cell">Generative AI</div>
+                <div class="table__cell" role="cell">
+                  <a
+                    class="link"
+                    href="./certificates/generative-ai.pdf"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    data-cert-link
+                  >
+                    View Certificate (PDF)
+                  </a>
+                </div>
+              </div>
+
+              <div class="table__row" role="row">
+                <div class="table__cell" role="cell">Data Cleaning</div>
+                <div class="table__cell" role="cell">
+                  <a
+                    class="link"
+                    href="./certificates/data-cleaning.pdf"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    data-cert-link
+                  >
+                    View Certificate (PDF)
+                  </a>
+                </div>
+              </div>
+
+              <div class="table__row" role="row">
+                <div class="table__cell" role="cell">IBM Data Science – Coursera</div>
+                <div class="table__cell" role="cell">
+                  <a
+                    class="link"
+                    href="./certificates/ibm-data-science.pdf"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    data-cert-link
+                  >
+                    View Certificate (PDF)
+                  </a>
+                </div>
+              </div>
+            </div>
+            <p class="muted small" role="note">
+              Tip: All certificate links open in a new tab.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="education" aria-label="Education">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title">Education</h2>
+            <p class="section-desc">Academic background and timeline.</p>
+          </div>
+
+          <ol class="timeline" aria-label="Education timeline">
+            <li class="timeline__item">
+              <div class="timeline__year">2019</div>
+              <div class="timeline__card">
+                <h3 class="timeline__title">SSC</h3>
+                <p class="timeline__meta">St. Arnold High School</p>
+              </div>
+            </li>
+            <li class="timeline__item">
+              <div class="timeline__year">2021</div>
+              <div class="timeline__card">
+                <h3 class="timeline__title">HSC (Commerce)</h3>
+                <p class="timeline__meta">Maharashtra State Board</p>
+              </div>
+            </li>
+            <li class="timeline__item">
+              <div class="timeline__year">2024</div>
+              <div class="timeline__card">
+                <h3 class="timeline__title">B.Sc. IT</h3>
+                <p class="timeline__meta">Patkar Varde College, Mumbai University</p>
+              </div>
+            </li>
+            <li class="timeline__item">
+              <div class="timeline__year">2026</div>
+              <div class="timeline__card">
+                <h3 class="timeline__title">MCA</h3>
+                <p class="timeline__meta">Aditya Institute of Management Studies, Mumbai University</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section" id="projects" aria-label="Projects">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title">Projects</h2>
+            <p class="section-desc">Selected work with concise, recruiter-friendly details.</p>
+          </div>
+
+          <div class="grid grid--2">
+            <article class="project card">
+              <div class="project__top">
+                <h3 class="project__title">Yoga Pose Detection</h3>
+                <p class="project__summary">Real-time yoga pose detection using computer vision</p>
+              </div>
+              <p class="project__desc">
+                Developed a real-time yoga pose detection system using machine learning and computer vision. Integrated
+                MediaPipe for landmark detection and OpenCV for live video processing. Classified yoga poses and provided
+                posture feedback. Aimed at improving alignment and reducing injury risk.
+              </p>
+              <div class="project__links">
+                <span class="muted small">Link: Not available</span>
+              </div>
+            </article>
+
+            <article class="project card">
+              <div class="project__top">
+                <h3 class="project__title">Peer-to-Peer Cloud Storage (Hosted)</h3>
+                <p class="project__summary">Decentralized cloud storage MVP</p>
+              </div>
+              <p class="project__desc">
+                Built a decentralized storage system using React, Node.js, and WebRTC. Implemented encrypted file
+                chunking across peers. Enabled redundancy and secure retrieval. Files remain downloadable even if one
+                peer is offline.
+              </p>
+              <div class="project__links">
+                <a
+                  class="link"
+                  href="https://preview--citizen-cloud-share.lovable.app/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  Project link
+                </a>
+              </div>
+            </article>
+
+            <article class="project card">
+              <div class="project__top">
+                <h3 class="project__title">Vehicle Service Application</h3>
+                <p class="project__summary">Web-based vehicle service management system</p>
+              </div>
+              <p class="project__desc">
+                Developed using C# and ASP.NET MVC. Used Entity Framework for database operations. Frontend built with
+                HTML, JavaScript, and Razor views. Added Docker support for deployment.
+              </p>
+              <div class="project__links">
+                <a
+                  class="link"
+                  href="https://github.com/Ris2503/VehicleServiceApp.git"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  Project link
+                </a>
+              </div>
+            </article>
+
+            <article class="project card">
+              <div class="project__top">
+                <h3 class="project__title">Placement Prediction System</h3>
+                <p class="project__summary">Predicts placement probability using data analytics</p>
+              </div>
+              <p class="project__desc">
+                Predicts placement chances and eligibility percentage. Analyzes academic, skill, and experience data.
+                Provides visual insights and recommendations. Supports downloadable reports.
+              </p>
+              <div class="project__links">
+                <span class="muted small">Link: Not available</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills" aria-label="Skills">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title">Skills</h2>
+            <p class="section-desc">Core tools and strengths.</p>
+          </div>
+
+          <div class="chips" role="list" aria-label="Skills list">
+            <span class="chip" role="listitem">Tableau</span>
+            <span class="chip" role="listitem">Power BI</span>
+            <span class="chip" role="listitem">Python (Jupyter Notebook)</span>
+            <span class="chip" role="listitem">SQL (Good Understanding)</span>
+            <span class="chip" role="listitem">Problem Solving</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="languages" aria-label="Languages known">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title">Languages</h2>
+            <p class="section-desc">Communication languages.</p>
+          </div>
+
+          <div class="grid grid--3">
+            <div class="card mini">
+              <h3 class="mini__title">English</h3>
+              <p class="muted small">Professional</p>
+            </div>
+            <div class="card mini">
+              <h3 class="mini__title">Hindi</h3>
+              <p class="muted small">Native / Fluent</p>
+            </div>
+            <div class="card mini">
+              <h3 class="mini__title">Marathi</h3>
+              <p class="muted small">Native / Fluent</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" aria-label="Footer">
+      <div class="container footer__inner">
+        <p class="muted small">© 2026 Rishabh Tiwari</p>
+        <div class="footer__links">
+          <a class="link" href="mailto:rishabh25gt@gmail.com">Email</a>
+          <a
+            class="link"
+            href="https://www.linkedin.com/in/rishabh-tiwari2003/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
